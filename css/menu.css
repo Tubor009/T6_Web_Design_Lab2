@@ -1,0 +1,109 @@
+div.menu {
+    vertical-align: top;
+    padding: 0;
+    color: #660000;
+    border-bottom: 3px solid #330000;
+    background-color: #FFCC66;
+}
+
+table.menu_main {
+    width: 1000px;
+    font-size: 20px;
+    padding: 0;
+    margin: 0;
+}
+
+table.menu {
+    width: 245px;
+    font-size: 20px;
+    padding: 0;
+    margin: 0;
+}
+
+td.menu {
+    width: 250px;
+    font-size: 20px;
+    padding: 0;
+    vertical-align: top;
+}
+
+td.normal {
+    padding: 0;
+    width: 250px;
+    font-size: 20px;
+    vertical-align: top;
+    background-color: #FFCC66;
+}
+
+td.expanded {
+    padding: 0;
+    width: 250px;
+    font-size: 20px;
+    vertical-align: top;
+    background-color: #FFCC66;
+}
+
+div.normal {
+    display: none;
+    position: static;
+}
+
+div.expanded {
+    display: inline;
+    /*border: 1px solid red;*/
+    background-color: #CCCC66;
+    position: absolute;
+}
+
+
+
+
+a.horiz_menu_item:link {
+    vertical-align: top;
+    text-decoration: none;
+    text-align: center;
+    color: black;
+    background-color: #FFCC66;
+    display: block;
+}
+
+a.horiz_menu_item:visited {
+    vertical-align: top;
+    text-decoration: none;
+    color: black;
+    background-color: #FFCC66;
+    display: block;
+}
+
+a.horiz_menu_item:hover {
+    vertical-align: top;
+    text-decoration: none;
+    color: white;
+    background-color: #330000;
+    display: block;
+}
+
+a.v_menu_item:link {
+    vertical-align: top;
+    text-decoration: none;
+    text-align: center;
+    color: black;
+    background-color: #CCCC66;
+    display: block;
+}
+
+a.v_menu_item:visited {
+    vertical-align: top;
+    text-decoration: none;
+    color: black;
+    background-color: #CCCC66;
+    display: block;
+}
+
+a.v_menu_item:hover {
+    vertical-align: top;
+    text-decoration: none;
+    color: white;
+    background-color: #330000;
+    display: block;
+}
